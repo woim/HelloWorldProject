@@ -28,7 +28,7 @@ namespace LogicTest
             // Arrange
             StreamLogic messageLogic = new StreamLogic();
             string message;
-            string expected = "Hello Babe!!";
+            string expected = "Hello You!!!";
 
             // Act
             message = messageLogic.getMessage();

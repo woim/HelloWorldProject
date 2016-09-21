@@ -29,6 +29,7 @@ namespace LogicTest
             StreamLogic messageLogic = new StreamLogic();
             string message;
             string expected = "Hello You!!!";
+            // Add comment for jenkins
 
             // Act
             message = messageLogic.getMessage();
